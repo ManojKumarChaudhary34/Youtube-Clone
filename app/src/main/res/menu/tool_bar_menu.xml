@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/connect"
+        android:id="@+id/id_connect_icon"
+        android:icon="@drawable/connect_icon"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/notification"
+        android:id="@+id/id_notification_icon"
+        android:icon="@drawable/notification_icon"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/search"
+        android:id="@+id/id_search_icon"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="ifRoom"/>
+</menu>
