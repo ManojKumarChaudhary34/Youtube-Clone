@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="@string/home"
+    <item
         android:id="@+id/id_home"
-        android:icon="@drawable/home_icon"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/home_selector"
+        android:title="@string/home" />
 
 
-    <item android:title="@string/shorts"
+    <item
         android:id="@+id/id_shorts"
-        android:icon="@drawable/shorts_icon"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/shorts_selector"
+        android:title="@string/shorts" />
 
 
-    <item android:title="@string/new_icon"
+    <item
         android:id="@+id/id_new"
         android:icon="@drawable/new_icon"
-        app:showAsAction="ifRoom"/>
+        android:title="@string/new_icon" />
 
 
-    <item android:title="@string/subscription"
+    <item
         android:id="@+id/id_subscription"
-        android:icon="@drawable/subscription_icon"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/subscription_selector"
+        android:title="@string/subscription"
+
+        />
 
 
-    <item android:title="@string/library"
+    <item
         android:id="@+id/id_library"
-        android:icon="@drawable/library_icon"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/library_selector"
+        android:title="@string/library" />
 </menu>

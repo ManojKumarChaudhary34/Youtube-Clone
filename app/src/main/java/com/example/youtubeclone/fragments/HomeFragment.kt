@@ -2,10 +2,13 @@ package com.example.youtubeclone.fragments
 
 import android.app.Application
 import android.os.Bundle
+import android.view.ContextMenu
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.MenuInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.youtubeclone.R
 import com.example.youtubeclone.adapters.MyCategoryAdapter
@@ -35,6 +38,7 @@ class HomeFragment : Fragment() {
 
         addDummyData()
         setUpRecyclerViewLayout()
+       
     }
 
     private fun addDummyData() {
@@ -133,7 +137,10 @@ class HomeFragment : Fragment() {
         binding.horizontalRecyclerView.setItemViewCacheSize(13)
         horizontalAdapter = MyCategoryAdapter(categoryList)
         binding.horizontalRecyclerView.adapter = horizontalAdapter
+
     }
+
+
 
 
 }

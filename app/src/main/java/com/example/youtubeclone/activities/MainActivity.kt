@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+binding.bottomNavigationView.itemIconTintList = null //this must be included for changing icon of bottomNav
         replaceWithFragment(HomeFragment())
         binding.bottomNavigationView.setOnItemSelectedListener {
             when (it.itemId) {

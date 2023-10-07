@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="18dp"
             tools:itemCount="1"
-            android:paddingBottom="10dp"
+            android:paddingVertical="10dp"
             tools:listitem="@layout/each_category"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
